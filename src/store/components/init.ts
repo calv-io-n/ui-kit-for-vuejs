@@ -12,7 +12,7 @@ $currentComponent.on(changeInfoStatus, (store, status) => {
       componentName = 'Call';
       break;
     default:
-      componentName = 'SignUp';
+      componentName = 'Dialing';
       break;
   }
   return componentName;
